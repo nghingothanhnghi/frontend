@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-React version ^18.2.0
+React version ^18.2.15
 # Requirement Software for run on localhost
 + Node.js -- v20.9.0
 + Visual Code for Window
