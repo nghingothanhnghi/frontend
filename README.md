@@ -1,6 +1,9 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Beside i've also installed some plugins develop the frontend regularly as
+- React Router
+- Axios
+- Tailwind CSS. [Tutorial for install here] 
 
 Currently, two official plugins are available:
 
