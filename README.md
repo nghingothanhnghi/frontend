@@ -7,7 +7,7 @@ React version ^18.2.15
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Beside i've also installed some plugins develop the frontend regularly as
 - React Router [Tutorial for install](https://reactrouter.com/en/main/start/tutorial)
 - Axios. [Tutorial for install](https://www.npmjs.com/package/axios#example)
-- Tailwind CSS. [Tutorial for install here](https://tailwindcss.com/docs/guides/vite). And also install Tailwind UI for React depends on [Headless UI](https://headlessui.dev/) to power all of the interactive behavior and [Heroicons](https://heroicons.com/) for icons, so you'll need to add these two libraries to project. You need some reference class from Tailwind, can get this [link](https://nerdcave.com/tailwind-cheat-sheet)
+- Tailwind CSS. [Tutorial for install here](https://tailwindcss.com/docs/guides/vite). And also install Tailwind UI for React depends on [Headless UI](https://headlessui.dev/) to power all of the interactive behavior and [Heroicons](https://heroicons.com/) for icons, so you'll need to add these two libraries to project. You need some reference class from Tailwind, can get this [link](https://nerdcave.com/tailwind-cheat-sheet) and reference components with [link](https://flowbite.com/docs/components/jumbotron/)
 
 # Start
 In the project root directory, you can run:
