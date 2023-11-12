@@ -1,10 +1,34 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { Route } from "react-router"
+
+
+
+import Layout from './layouts/index.tsx'
+import ErrorPage from './pages/404/index.tsx'
+import Home from './pages/home/index.tsx';
+
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<Layout />} errorElement={<ErrorPage />}>
+      <Route
+        path="/frontend"
+        element={<Home />}
+      />
+    </Route>
+  )
+);
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
+
