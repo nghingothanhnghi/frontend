@@ -11,6 +11,7 @@ import { Route } from "react-router"
 
 import Layout from './layouts/index.tsx'
 import ErrorPage from './pages/404/index.tsx'
+import SearchResult from './pages/search/index.tsx';
 import Home from './pages/home/index.tsx';
 
 import './index.css'
@@ -22,6 +23,10 @@ const router = createBrowserRouter(
       <Route
         path="/frontend"
         element={<Home />}
+      />
+      <Route
+        path="/search-result"
+        element={<SearchResult />}
       />
     </Route>
   )
