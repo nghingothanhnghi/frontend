@@ -1,7 +1,7 @@
 import http from "../api/http-common";
 import ICategoryData from "../models/category.model";
 
-class TutorialDataService {
+class CategoryDataService {
     getAll() {
       return http.get<Array<ICategoryData>>("/categories");
     }
@@ -31,4 +31,4 @@ class TutorialDataService {
     }
   }
   
-  export default new TutorialDataService();
+  export default new CategoryDataService();
